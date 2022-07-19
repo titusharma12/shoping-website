@@ -17,7 +17,7 @@
 }
 
 .details-image {
- width: 40vw;
+  width: 40vw;
   height: 150vh;
   /* height: 100vh; */
 }
@@ -68,89 +68,88 @@
   line-height: 2rem;
   font-family: "Varela Round", sans-serif;
 }
-.pricetag{
-display: flex;
-align-items: center;
-/* justify-content: space-between; */
+.pricetag {
+  display: flex;
+  align-items: center;
+  /* justify-content: space-between; */
 }
-.quantity{
-    font-size: 1.5rem;
+.quantity {
+  font-size: 1.5rem;
   line-height: 2rem;
-  font-family: "Varela Round", sans-serif; 
+  font-family: "Varela Round", sans-serif;
   /* font-weight: bold; */
 }
-.price{
-padding-left: 5rem;
-   font-size: 1.5rem;
+.price {
+  padding-left: 5rem;
+  font-size: 1.5rem;
   line-height: 2rem;
-  font-family: "Varela Round", sans-serif; 
+  font-family: "Varela Round", sans-serif;
   /* font-weight: bold; */
 }
-.price-text{
-    font-size: 2rem;
+.price-text {
+  font-size: 2rem;
   line-height: 2rem;
-  font-family: 'Ubuntu', sans-serif; 
+  font-family: "Ubuntu", sans-serif;
   font-weight: bold;
 }
-.cart{
-    margin-top: -20px;
-    /* border: 3px solid blue; */
-    height:15vh;
-    
-    display: flex;
+.cart {
+  margin-top: -20px;
+  /* border: 3px solid blue; */
+  height: 15vh;
+
+  display: flex;
   align-items: center;
 }
 .wishlist {
-background-color: hwb(0 89% 11% / 0.979);
-width:49%;
-height: 10vh;
- color:#FFFFFF;
- font-size: 1.5rem;
- font-weight: bold;
- font-family: 'Varela Round', sans-serif;
- /* text-align: center; */
- display: flex;
- align-items: center;
- justify-content: center;
+  background-color: hwb(0 89% 11% / 0.979);
+  width: 49%;
+  height: 10vh;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Varela Round", sans-serif;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.wishlist a{
-   color:#FFFFFF;
- font-size: 1.5rem;
- font-weight: bold;
- font-family: 'Varela Round', sans-serif;
- text-decoration: none;
+.wishlist a {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Varela Round", sans-serif;
+  text-decoration: none;
 }
-.wishlist a:hover{
-  color:#FFFFFF;
+.wishlist a:hover {
+  color: #ffffff;
 }
-.cartprice{
-   background-color: orange;
-   width:52%;
-   height: 10vh;
-   color:#FFFFFF;
-   font-size: 1.5rem;
-   font-weight: bold;
-   font-family: 'Varela Round', sans-serif;
-   /* text-align: center; */
-   display: flex;
- align-items: center;
- justify-content: center;
-}
-
-.cartprice a{
-   color:#FFFFFF;
- font-size: 1.5rem;
- font-weight: bold;
- font-family: 'Varela Round', sans-serif;
- text-decoration: none;
-}
-.cartprice a:hover{
-  color:#FFFFFF;
+.cartprice {
+  background-color: orange;
+  width: 52%;
+  height: 10vh;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Varela Round", sans-serif;
+  /* text-align: center; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
-.rate_cart{
-    padding-left:5px;
-    font-size: 1.7rem;
+.cartprice a {
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: "Varela Round", sans-serif;
+  text-decoration: none;
+}
+.cartprice a:hover {
+  color: #ffffff;
 }
 
+.rate_cart {
+  padding-left: 5px;
+  font-size: 1.7rem;
+}

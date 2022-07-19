@@ -9,12 +9,10 @@ xmlhttp.onreadystatechange = function () {
       //200 = "OK" state "	The request was successfully received, understood, and accepted"
       var data = JSON.parse(xmlhttp.responseText);
       console.log(data);
-     
-      
 
       for (i = 0; i < data.length; i++) {
         var product = document.getElementById("product");
-      var heading = document.getElementById("heading-0");
+        var heading = document.getElementById("heading-0");
         if (data[i].category === "men's clothing") {
           heading.innerHTML = data[i].category;
           var div = document.createElement("div");
@@ -24,7 +22,7 @@ xmlhttp.onreadystatechange = function () {
           div.setAttribute("class", "product_item col-sm-3 mt-3 mb-3");
           var img = document.createElement("img");
           img.setAttribute("class", "border");
-            img.setAttribute("src", data[i].image);
+          img.setAttribute("src", data[i].image);
           aTag.appendChild(img);
           div.appendChild(aTag);
           product.appendChild(div);
@@ -37,12 +35,12 @@ xmlhttp.onreadystatechange = function () {
           heading_1.innerHTML = data[i].category;
           var div = document.createElement("div");
           div.setAttribute("id", "product");
-            var aTag = document.createElement("a");
+          var aTag = document.createElement("a");
           aTag.setAttribute("href", "detail.html?id=" + data[i].id);
           div.setAttribute("class", "product_item col-sm-3 mt-3 mb-3");
           var img = document.createElement("img");
           img.setAttribute("class", "border");
-            img.setAttribute("src", data[i].image);
+          img.setAttribute("src", data[i].image);
           aTag.appendChild(img);
           div.appendChild(aTag);
           product_1.appendChild(div);
@@ -55,12 +53,12 @@ xmlhttp.onreadystatechange = function () {
           heading_2.innerHTML = data[i].category;
           var div = document.createElement("div");
           div.setAttribute("id", "product");
-           var aTag = document.createElement("a");
+          var aTag = document.createElement("a");
           aTag.setAttribute("href", "detail.html?id=" + data[i].id);
           div.setAttribute("class", "product_item col-sm-3 mt-3 mb-3");
           var img = document.createElement("img");
           img.setAttribute("class", "border");
-            img.setAttribute("src", data[i].image);
+          img.setAttribute("src", data[i].image);
           aTag.appendChild(img);
           div.appendChild(aTag);
           product_2.appendChild(div);
@@ -78,7 +76,7 @@ xmlhttp.onreadystatechange = function () {
           div.setAttribute("class", "product_item col-sm-3 mt-3 mb-3");
           var img = document.createElement("img");
           img.setAttribute("class", "border");
-            img.setAttribute("src", data[i].image);
+          img.setAttribute("src", data[i].image);
           aTag.appendChild(img);
           div.appendChild(aTag);
           product_3.appendChild(div);
@@ -153,14 +151,14 @@ function like() {
 }
 
 // search functionality
- var search_text = document.getElementById("search_text");
+var search_text = document.getElementById("search_text");
 search_text.addEventListener("keydown", function (e) {
-    if (e.keyCode === 13) {
-        search(e);
-    }
+  if (e.keyCode === 13) {
+    search(e);
+  }
 });
 
 function search(e) {
-      // console.log(data);
-      alert(search_text.value);
+  // console.log(data);
+  console.log(search_text.value);
 }

@@ -2,8 +2,12 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Bootstrap demo</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+     <title>Clothify</title>
+    <link rel="icon" href="image/logo clothify.png" type="image/icon type">
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="detail.css" />
     <link
@@ -18,22 +22,22 @@
     />
   </head>
   <body>
-    <nav class="nav-1 mt-2">
+     <nav class="nav-1 mt-2">
       <ul>
         <li class="logo"><a href="index.html">Clothify</a></li>
         <li class="input-text">
           <input
             type="text"
-            class="bg-light text-secondary"
-            placeholder="Search the product here..."
-          /><button type="submit" class="btns bg-light">
+            class="bg-light text-secondary" id="search_text"
+            placeholder="Search the product here..." 
+          /><button type="submit" class="btns bg-light"  onclick="search()">
             <i class="fa fa-search"></i>
           </button>
         </li>
         <li>
           <ul class="nav-13">
             <li id="like" onclick="like()">
-              <button class="heart" value="0">
+              <button class="heart">
                 <i class="fa fa-heart-o" style="font-size: 24px"></i>
               </button>
             </li>

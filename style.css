@@ -29,11 +29,11 @@
   color: #000000;
   font-weight: bold;
 }
-.logo a:hover{
-  color:black;
+.logo a:hover {
+  color: black;
 }
-.input-text{
-  border-radius:10px;
+.input-text {
+  border-radius: 10px;
 }
 .input-text input {
   width: 50vw;
@@ -41,15 +41,15 @@
   border: none;
   border-radius: 10px;
   outline: none;
-    /* font-weight: bold; */
-      font-family: 'Ubuntu', sans-serif;
-  padding-left:30px;
+  /* font-weight: bold; */
+  font-family: "Ubuntu", sans-serif;
+  padding-left: 30px;
 }
 ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
   font-size: 15px;
   /* font-weight: bold; */
-font-family: 'Ubuntu', sans-serif;
+  font-family: "Ubuntu", sans-serif;
   /* padding-left: 17px; */
 
   /* Firefox */
@@ -110,7 +110,7 @@ font-family: 'Ubuntu', sans-serif;
 .leftbar {
   /* border: 3px solid blue; */
   width: 75vw;
-  margin-left:40px;
+  margin-left: 40px;
   /* height: 500vh; */
 }
 .side-home {
@@ -125,11 +125,10 @@ font-family: 'Ubuntu', sans-serif;
   font-family: "Ubuntu", sans-serif;
   font-size: 14px;
   font-weight: bold;
-  
 }
-.side-home:hover{
-  background-color: #7952B3;
-  color:#ffffff;
+.side-home:hover {
+  background-color: #7952b3;
+  color: #ffffff;
   cursor: pointer;
 }
 .side-item {
@@ -145,10 +144,9 @@ font-family: 'Ubuntu', sans-serif;
   font-family: "Ubuntu", sans-serif;
   font-size: 14px;
   font-weight: bold;
-  
 }
 .side-item:hover {
-  background-color: #7952B3;
+  background-color: #7952b3;
   color: #ffffff;
   cursor: pointer;
 }
