@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&family=Poppins:ital,wght@1,500&family=Ubuntu&family=Varela+Round&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+.details {
+  display: flex;
+  /* align-items: center; */
+
+  /* width:98vw; */
+  height: 150vh;
+  /* border: 3px solid red; */
+  margin-top: 3rem;
+}
+
+.details-image {
+ width: 40vw;
+  height: 150vh;
+  /* height: 100vh; */
+}
+
+.details-image img {
+  width: 40vw;
+  height: 140vh;
+  /* border: 3px solid green; */
+}
+.details-information {
+  width: 80vw;
+  height: 150vh;
+  /* border: 3px solid yellow; */
+}
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.description {
+  font-size: 2rem;
+  line-height: 2rem;
+  font-family: "Varela Round", sans-serif;
+  /* font-weight: bold; */
+}
+.checked {
+  color: orange;
+  /* font-size: 7rem; */
+}
+.rating {
+  display: flex;
+  /* justify-content: center; */
+}
+.rating-text {
+  padding-left: 25px;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-family: "Varela Round", sans-serif;
+}
+.stock {
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-family: "Varela Round", sans-serif;
+}
+.store {
+  padding-left: 10px;
+  color: orange;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  font-family: "Varela Round", sans-serif;
+}
+.pricetag{
+display: flex;
+align-items: center;
+/* justify-content: space-between; */
+}
+.quantity{
+    font-size: 1.5rem;
+  line-height: 2rem;
+  font-family: "Varela Round", sans-serif; 
+  /* font-weight: bold; */
+}
+.price{
+padding-left: 5rem;
+   font-size: 1.5rem;
+  line-height: 2rem;
+  font-family: "Varela Round", sans-serif; 
+  /* font-weight: bold; */
+}
+.price-text{
+    font-size: 2rem;
+  line-height: 2rem;
+  font-family: 'Ubuntu', sans-serif; 
+  font-weight: bold;
+}
+.cart{
+    margin-top: -20px;
+    /* border: 3px solid blue; */
+    height:15vh;
+    
+    display: flex;
+  align-items: center;
+}
+.wishlist {
+background-color: hwb(0 89% 11% / 0.979);
+width:49%;
+height: 10vh;
+ color:#FFFFFF;
+ font-size: 1.5rem;
+ font-weight: bold;
+ font-family: 'Varela Round', sans-serif;
+ /* text-align: center; */
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.wishlist a{
+   color:#FFFFFF;
+ font-size: 1.5rem;
+ font-weight: bold;
+ font-family: 'Varela Round', sans-serif;
+ text-decoration: none;
+}
+.wishlist a:hover{
+  color:#FFFFFF;
+}
+.cartprice{
+   background-color: orange;
+   width:52%;
+   height: 10vh;
+   color:#FFFFFF;
+   font-size: 1.5rem;
+   font-weight: bold;
+   font-family: 'Varela Round', sans-serif;
+   /* text-align: center; */
+   display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.cartprice a{
+   color:#FFFFFF;
+ font-size: 1.5rem;
+ font-weight: bold;
+ font-family: 'Varela Round', sans-serif;
+ text-decoration: none;
+}
+.cartprice a:hover{
+  color:#FFFFFF;
+}
+
+.rate_cart{
+    padding-left:5px;
+    font-size: 1.7rem;
+}
+
