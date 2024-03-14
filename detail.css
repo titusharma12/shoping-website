@@ -166,7 +166,7 @@
     align-items: center;
    
     /* width:98vw; */
-    height: 90vh;
+    height: 100vh;
     /* border: 3px solid red; */
     margin-top: 0px;
   }
@@ -215,7 +215,7 @@
   }
 
   .cart {
-    margin-top: 16rem;
+    margin-top: 10rem;
     /* border: 3px solid blue; */
     height: 15vh;
   
