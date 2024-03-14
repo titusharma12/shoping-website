@@ -153,3 +153,73 @@
   padding-left: 5px;
   font-size: 1.7rem;
 }
+
+
+/* Media query for phones */
+@media only screen and (max-width: 767px) {
+  .nav-1{
+    display: none;
+  }
+  .details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    /* width:98vw; */
+    height: 90vh;
+    /* border: 3px solid red; */
+    margin-top: 0px;
+  }
+  .details-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* height: 100vh; */
+  }
+  .details-image img {
+    width: 80vw;
+    height: 40vh;
+    /* border: 3px solid green; */
+  }
+  .details-information {
+    width: 90vw;
+    height: auto;
+  }
+  
+  .title {
+    font-size: 1.8rem;
+  }
+
+  .description {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+  }
+
+  .rating-text {
+    font-size: 1.3rem;
+    line-height: 1.5rem;
+  }
+
+  .stock,
+  .store,
+  .quantity,
+  .price {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
+  .wishlist,
+  .cartprice {
+    font-size: 0.6rem;
+  }
+
+  .cart {
+    margin-top: 16rem;
+    /* border: 3px solid blue; */
+    height: 15vh;
+  
+    display: flex;
+    align-items: center;
+  }
+}

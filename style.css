@@ -158,7 +158,7 @@
 .category {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .category_item {
   padding: 10px 6px;
@@ -196,4 +196,103 @@
   font-family: "Varela Round", sans-serif;
   font-size: 13px;
   font-weight: bold;
+}
+.fa-p{
+  font-size: 24px; 
+}
+
+
+/* Media query for phones */
+@media only screen and (max-width: 767px) {
+.nav-1{
+  display: none;
+}
+
+.carousel-item img{
+  height: 30vh;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+}
+
+.side-home,.side-item {
+  width: 16vw;
+  height: 6vh;
+  /* border:3px solid green; */
+  background-color: #f8f9fa;
+  margin-top: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-radius: 10px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 8px;
+  font-weight: bold;
+  padding: 0.5rem;
+}
+.siderbar {
+  /* border: 3px solid red; */
+  width: 90vw;
+  /* height: 68vh; */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  /* flex-direction: column; */
+  /* padding-left: 10px; */
+}
+.fa-p{
+  font-size: 12px;
+  width: 12px; 
+}
+
+.heading {
+  margin-top: 1.5rem;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+}
+.text-smalls {
+  margin-top: 0.8rem;
+  text-align: center;
+}
+.category {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.category_item {
+  /* padding: 6px; */
+  border-radius: 10px;
+  width: 19vw;
+  height: 6vh;
+  text-align: center;
+  /* margin: 5px; */
+  /* font-size: 10px; */
+  font-family: "Ubuntu", sans-serif;
+  font-size: 8px;
+  font-weight: bold;
+}
+.new{
+  display: none;
+}
+.product_item  {
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.product_item img {
+  width: 60vw;
+  height: 30vh;
+  border: none;
+  cursor: pointer;
+}
+
+
 }
